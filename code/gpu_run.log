@@ -1,0 +1,66 @@
+[10-08 11:36:21] device=cuda
+[10-08 11:36:21] gpu=NVIDIA A800 80GB PCIe mem=85GB
+[10-08 11:36:21] datasets ok: True
+[10-08 11:36:21] GPU RUNNER plan=yoo device=cuda
+[10-08 11:36:21] RUN full_itemknn_yoochoose_quarter
+[10-08 11:36:28]   rc=0 ok=True 0.1min
+[10-08 11:36:28] RUN full_narm_yoochoose_quarter
+[10-08 12:15:17]   rc=0 ok=True 38.8min
+[10-08 12:15:17] RUN full_srgnn_yoochoose_quarter
+[10-08 12:43:48]   rc=0 ok=True 28.5min
+[10-08 12:43:48] RUN full_gcegnn_yoochoose_quarter
+[10-08 13:22:12]   rc=0 ok=True 38.4min
+[10-08 13:22:12] RUN full_mplignn_L1_yoochoose_quarter
+[10-10 00:05:57]   rc=0 ok=True 2083.8min
+[10-10 00:05:57] RUN full_mplignn_yoochoose_quarter
+[10-10 19:34:58]   rc=0 ok=True 1169.0min
+[10-10 19:35:00] packed 10 files -> gpu_results.tar.gz (38.6 MB)
+[10-10 19:35:00] GPU RUNS COMPLETE -- copy gpu_results.tar.gz back to the workstation
+[10-12 10:24:46] device=cuda
+[10-12 10:24:47] gpu=NVIDIA A800 80GB PCIe mem=85GB
+[10-12 10:24:47] datasets ok: True
+[10-12 10:24:47] GPU RUNNER plan=yoo device=cuda
+[10-12 10:24:47] skip full_itemknn_yoochoose_quarter.json
+[10-12 10:24:47] skip full_narm_yoochoose_quarter.json
+[10-12 10:24:47] skip full_srgnn_yoochoose_quarter.json
+[10-12 10:24:47] skip full_gcegnn_yoochoose_quarter.json
+[10-12 10:24:47] skip full_mplignn_L1_yoochoose_quarter.json
+[10-12 10:24:47] skip full_mplignn_yoochoose_quarter.json
+[10-12 10:24:49] packed 11 files -> gpu_results.tar.gz (38.6 MB)
+[10-12 10:24:49] GPU RUNS COMPLETE -- copy gpu_results.tar.gz back to the workstation
+[10-12 10:39:42] device=cuda
+[10-12 10:39:42] gpu=NVIDIA A800 80GB PCIe mem=85GB
+[10-12 10:39:42] datasets ok: True
+[10-12 10:39:42] GPU RUNNER plan=full3 device=cuda
+[10-12 10:39:42] RUN full_itemknn_diginetica.json
+[10-12 10:39:45]   rc=0 ok=True 0.1min
+[10-12 10:39:45] RUN full_narm_diginetica.json
+[10-12 10:40:44]   rc=0 ok=True 1.0min
+[10-12 10:40:44] RUN full_srgnn_diginetica.json
+[10-12 10:41:38]   rc=0 ok=True 0.9min
+[10-12 10:41:38] RUN full_gcegnn_diginetica.json
+[10-12 10:44:47]   rc=0 ok=True 3.1min
+[10-12 10:44:47] RUN full_mplignn_L1_diginetica.json
+[10-12 16:19:54]   rc=0 ok=True 335.1min
+[10-12 16:19:54] RUN full_mplignn_diginetica.json
+[10-12 21:46:34]   rc=0 ok=True 326.7min
+[10-12 21:46:34] RUN full_itemknn_gowalla.json
+[10-12 21:46:40]   rc=0 ok=True 0.1min
+[10-12 21:46:40] RUN full_narm_gowalla.json
+[10-12 21:50:24]   rc=0 ok=True 3.7min
+[10-12 21:50:24] RUN full_srgnn_gowalla.json
+[10-12 21:53:59]   rc=0 ok=True 3.6min
+[10-12 21:53:59] RUN full_gcegnn_gowalla.json
+[10-12 21:58:32]   rc=0 ok=True 4.6min
+[10-12 21:58:32] RUN full_mplignn_L1_gowalla.json
+[10-13 09:29:47]   rc=0 ok=True 691.2min
+[10-13 09:29:47] RUN full_mplignn_gowalla.json
+[10-13 21:16:13]   rc=0 ok=True 706.4min
+[10-13 21:16:13] skip full_itemknn_yoochoose_quarter.json
+[10-13 21:16:13] skip full_narm_yoochoose_quarter.json
+[10-13 21:16:13] skip full_srgnn_yoochoose_quarter.json
+[10-13 21:16:13] skip full_gcegnn_yoochoose_quarter.json
+[10-13 21:16:13] skip full_mplignn_L1_yoochoose_quarter.json
+[10-13 21:16:13] skip full_mplignn_yoochoose_quarter.json
+[10-13 21:16:20] packed 33 files -> gpu_results.tar.gz (150.7 MB)
+[10-13 21:16:20] GPU RUNS COMPLETE -- copy gpu_results.tar.gz back to the workstation

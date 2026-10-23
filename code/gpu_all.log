@@ -1,0 +1,9 @@
+[10-08 11:45:02] MASTER ORCHESTRATOR device=cpu phases=0,1,2,3,4,5,6,7,8,9,10,11
+[10-08 11:45:02] P0 selftest
+[10-08 11:45:02] SELFTEST FAILED
+
+OMP: Error #179: Function Can't open SHM failed:
+OMP: System error #0: Undefined error: 0
+
+[10-08 11:45:16] MASTER ORCHESTRATOR device=cpu phases=
+[10-08 11:45:16] orchestrator finished requested phases

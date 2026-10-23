@@ -1,0 +1,19 @@
+nohup: ignoring input
+[10-08 11:36:21] device=cuda
+[10-08 11:36:21] gpu=NVIDIA A800 80GB PCIe mem=85GB
+[10-08 11:36:21] datasets ok: True
+[10-08 11:36:21] GPU RUNNER plan=yoo device=cuda
+[10-08 11:36:21] RUN full_itemknn_yoochoose_quarter
+[10-08 11:36:28]   rc=0 ok=True 0.1min
+[10-08 11:36:28] RUN full_narm_yoochoose_quarter
+[10-08 12:15:17]   rc=0 ok=True 38.8min
+[10-08 12:15:17] RUN full_srgnn_yoochoose_quarter
+[10-08 12:43:48]   rc=0 ok=True 28.5min
+[10-08 12:43:48] RUN full_gcegnn_yoochoose_quarter
+[10-08 13:22:12]   rc=0 ok=True 38.4min
+[10-08 13:22:12] RUN full_mplignn_L1_yoochoose_quarter
+[10-10 00:05:57]   rc=0 ok=True 2083.8min
+[10-10 00:05:57] RUN full_mplignn_yoochoose_quarter
+[10-10 19:34:58]   rc=0 ok=True 1169.0min
+[10-10 19:35:00] packed 10 files -> gpu_results.tar.gz (38.6 MB)
+[10-10 19:35:00] GPU RUNS COMPLETE -- copy gpu_results.tar.gz back to the workstation

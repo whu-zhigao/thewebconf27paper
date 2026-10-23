@@ -1,0 +1,33 @@
+{
+  "note": "sha256 of derived split pickles and retrieval caches; raw public datasets are NOT redistributed. Rebuild with scripts/prepare_datasets.py and scripts/prepare_yoochoose.py, then compare.",
+  "splits": {
+    "diginetica.pkl": "5a3f276158e5ed99ab68875eb6954ebbc6199221abfc279e94f3a227e74a74b7",
+    "gowalla.pkl": "fc541387ac2c6cf6126771a25d7b4da5c2b1ac06fbafd631084cd6e6c54a1f60",
+    "longchain.pkl": "c27322ce6bfcced065bec63c5a38e04459189a377ab3ab298c9c55b13f4e7701",
+    "nowplaying.pkl": "2aedaf1ea6a3c1f213ec42fd18d6e6afb982a0fc5ccdb3a65d80b436068b5fe4",
+    "retailrocket.pkl": "4bd9518ea48f68b16629b99390cbb868bcbe301895ab8efff6db984a4236f1a4",
+    "synthetic.pkl": "8a672a614617cf96c9c957a1ed098da8fc2f8129f02647c9bdcc19c3d76ebd6f",
+    "yoochoose.pkl": "32d5fea92774f3a3de77f4139cad5faedb70dc7803e51711e578a22377e513aa",
+    "yoochoose_quarter.pkl": "c066a256d22c34228f94b59514449bea65317194528d6ffa03df71f706821db1"
+  },
+  "relcache": {
+    "diginetica_test.npz": "03cdef7996251aaa89950992ed4d0776fcb2a37ad5486bbca4f5a85899bb2d45",
+    "diginetica_train.npz": "6498ce1d4f5c92f081d6dfaaf0bdb564bd6f71a85b058b98ba19f1b10adb70de",
+    "diginetica_valid.npz": "9969c2858d552ad4197fa984d1d22c4e2023db2ceb04ea1a9ed17c336d0d520b",
+    "gowalla_test.npz": "30b38f4d0271362ec3fff50a7d9e316329742ed0aa0af4713fe71d2be9a643c9",
+    "gowalla_train.npz": "4b493a7f303f249f1a2435b1fad3c297f3742a0d51de024408157c807b8f2401",
+    "gowalla_valid.npz": "c8522f0c89aa869f706a5e6848c1962c9e81cc5370362f1ebeb02892e884795f",
+    "nowplaying_test.npz": "cbcdddd09d055baeb4bb15bbc496048e99196c34c48d513f90f9ae0d491e08ea",
+    "nowplaying_train.npz": "db7dd57fc46032fd30e83180b32dade1def14c07cc43ef2e0f4f3dcb1f9f4340",
+    "nowplaying_valid.npz": "4b6cbf8ae526019669536bd113b5f1b7a7cb8378f68f0f335a44198ac4cbfbbd",
+    "retailrocket_test.npz": "66f7e698c03190bbc360275b481bec0eec117ed31b3437ecfcc65e327247ad35",
+    "retailrocket_train.npz": "75292549ee0cbd6013fb58f45c31f9e0e07614a89d9d1c8c59cc8f6fad97e62b",
+    "retailrocket_valid.npz": "1c229ee098a3ced53e8b3d42c703b6c7a6844958b6686e326d1a6429a17bd876",
+    "yoochoose_quarter_test.npz": "3dcd900985fd2a5ea61f830bc004b7c48d07af64cd5040077094504e2c4c9ef2",
+    "yoochoose_quarter_train.npz": "ecc00876cc6f36cc63d36de695b81d561fc0a6c331b88bb1885796b4dc84ed18",
+    "yoochoose_quarter_valid.npz": "a399ca349e5ac161540d9000f6acba37a8aed09fb31138f4ffbe864dff63b988",
+    "yoochoose_test.npz": "0291c99daebdd8fdf727346474584ea14b7030adfe89db62824e5a6f5c148658",
+    "yoochoose_train.npz": "95e5d4af8b3948c1da9b5b5aa30de49ebba01632606efb009306a20f40b6055f",
+    "yoochoose_valid.npz": "52c43935a30afd8d9a32ad3c13331b39b7e2f28a8d7dbe3ea503f84660465854"
+  }
+}
