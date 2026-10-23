@@ -1,0 +1,23 @@
+epoch   1 loss 9.1321 val MRR@20 0.2405 HR@20 0.2843 (12s)
+epoch   2 loss 8.2487 val MRR@20 0.2502 HR@20 0.3058 (23s)
+epoch   3 loss 7.7967 val MRR@20 0.2538 HR@20 0.3235 (34s)
+epoch   4 loss 7.4567 val MRR@20 0.2519 HR@20 0.3362 (45s)
+epoch   5 loss 53416.2389 val MRR@20 0.2509 HR@20 0.3483 (55s)
+epoch   6 loss 6.8682 val MRR@20 0.2517 HR@20 0.3597 (67s)
+epoch   7 loss 6.6598 val MRR@20 0.2548 HR@20 0.3675 (80s)
+epoch   8 loss 6.4233 val MRR@20 0.2576 HR@20 0.3779 (93s)
+epoch   9 loss 6.3345 val MRR@20 0.2597 HR@20 0.3879 (106s)
+epoch  10 loss 6.2149 val MRR@20 0.2622 HR@20 0.3932 (119s)
+epoch  11 loss 6.1028 val MRR@20 0.2664 HR@20 0.4027 (130s)
+epoch  12 loss 6.0385 val MRR@20 0.2667 HR@20 0.4046 (141s)
+TEST {
+  "HR@10": 0.26237908522944803,
+  "MRR@10": 0.20098510385679177,
+  "NDCG@10": 0.21587382203246488,
+  "Coverage@10": 0.027971392216477983,
+  "HR@20": 0.28174891994019186,
+  "MRR@20": 0.20230815332917498,
+  "NDCG@20": 0.22074508022133524,
+  "Coverage@20": 0.04315099578530003
+}
+wrote results/real/seed_narm_yoochoose_quarter_s5.json + results/real/seed_narm_yoochoose_quarter_s5.pt (best epoch 12)

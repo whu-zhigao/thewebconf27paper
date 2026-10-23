@@ -1,0 +1,277 @@
+=== sensitivity rerun Thu Oct 15 20:05:54 CST 2026 ===
+epoch   1 loss 24.9081 val MRR@20 0.0998 HR@20 0.1279 (71s)
+epoch   2 loss 19.8945 val MRR@20 0.0869 HR@20 0.1105 (147s)
+epoch   3 loss 13.8074 val MRR@20 0.0487 HR@20 0.0642 (219s)
+epoch   4 loss 10.8306 val MRR@20 0.0804 HR@20 0.1037 (294s)
+epoch   5 loss 10.3757 val MRR@20 0.0983 HR@20 0.1235 (376s)
+TEST {
+  "HR@10": 0.14205242743512161,
+  "MRR@10": 0.11369494219639206,
+  "NDCG@10": 0.12073188084913417,
+  "Coverage@10": 0.02842093700225188,
+  "HR@20": 0.14789538961999557,
+  "MRR@20": 0.11410764131327121,
+  "NDCG@20": 0.12221801040702021,
+  "Coverage@20": 0.05499796781457682
+}
+wrote results/real/sweep/sens_L1.json + results/real/sweep/sens_L1.pt (best epoch 1)
+epoch   1 loss 24.0472 val MRR@20 0.0981 HR@20 0.1239 (86s)
+epoch   2 loss 19.0615 val MRR@20 0.0912 HR@20 0.1163 (169s)
+epoch   3 loss 14.7777 val MRR@20 0.0446 HR@20 0.0626 (252s)
+epoch   4 loss 11.0909 val MRR@20 0.0716 HR@20 0.0940 (336s)
+epoch   5 loss 10.3950 val MRR@20 0.0902 HR@20 0.1170 (411s)
+TEST {
+  "HR@10": 0.13647207029226446,
+  "MRR@10": 0.11040419710183097,
+  "NDCG@10": 0.116853828809034,
+  "Coverage@10": 0.028425550612401835,
+  "HR@20": 0.14277459130066783,
+  "MRR@20": 0.11085052939172305,
+  "NDCG@20": 0.11845798307676583,
+  "Coverage@20": 0.05502806612841214
+}
+wrote results/real/sweep/sens_L2.json + results/real/sweep/sens_L2.pt (best epoch 1)
+epoch   1 loss 23.0716 val MRR@20 0.0945 HR@20 0.1216 (91s)
+epoch   2 loss 18.2633 val MRR@20 0.0889 HR@20 0.1151 (182s)
+epoch   3 loss 14.7114 val MRR@20 0.0673 HR@20 0.0913 (271s)
+epoch   4 loss 11.5697 val MRR@20 0.0606 HR@20 0.0848 (362s)
+epoch   5 loss 10.4493 val MRR@20 0.0808 HR@20 0.1043 (452s)
+TEST {
+  "HR@10": 0.13021765023219486,
+  "MRR@10": 0.10606721334629877,
+  "NDCG@10": 0.11199977511682788,
+  "Coverage@10": 0.028478716976986868,
+  "HR@20": 0.13712858289730648,
+  "MRR@20": 0.10654229099277014,
+  "NDCG@20": 0.11374102113749088,
+  "Coverage@20": 0.05506211896523312
+}
+wrote results/real/sweep/sens_L3.json + results/real/sweep/sens_L3.pt (best epoch 1)
+epoch   1 loss 22.1776 val MRR@20 0.0867 HR@20 0.1140 (95s)
+epoch   2 loss 17.7114 val MRR@20 0.0778 HR@20 0.1054 (185s)
+epoch   3 loss 14.2172 val MRR@20 0.0576 HR@20 0.0859 (275s)
+epoch   4 loss 11.6338 val MRR@20 0.0530 HR@20 0.0798 (365s)
+epoch   5 loss 10.5489 val MRR@20 0.0721 HR@20 0.0975 (450s)
+TEST {
+  "HR@10": 0.12164788561708786,
+  "MRR@10": 0.09755609976643037,
+  "NDCG@10": 0.10340863488052308,
+  "Coverage@10": 0.028516724336793548,
+  "HR@20": 0.12949548636664862,
+  "MRR@20": 0.09811691323247039,
+  "NDCG@20": 0.10541281747358275,
+  "Coverage@20": 0.05500851320920528
+}
+wrote results/real/sweep/sens_L4.json + results/real/sweep/sens_L4.pt (best epoch 1)
+epoch   1 loss 24.0359 val MRR@20 0.0990 HR@20 0.1250 (81s)
+epoch   2 loss 18.9376 val MRR@20 0.0931 HR@20 0.1184 (157s)
+epoch   3 loss 14.4914 val MRR@20 0.0438 HR@20 0.0615 (234s)
+epoch   4 loss 10.9598 val MRR@20 0.0745 HR@20 0.0990 (309s)
+epoch   5 loss 10.3857 val MRR@20 0.0906 HR@20 0.1161 (392s)
+TEST {
+  "HR@10": 0.1360606124170688,
+  "MRR@10": 0.11030237382547968,
+  "NDCG@10": 0.11667382098658131,
+  "Coverage@10": 0.028428406656780338,
+  "HR@20": 0.14308529729101838,
+  "MRR@20": 0.11078658442885708,
+  "NDCG@20": 0.11844624981020065,
+  "Coverage@20": 0.05499664964024827
+}
+wrote results/real/sweep/sens_M1.json + results/real/sweep/sens_M1.pt (best epoch 1)
+epoch   1 loss 24.0671 val MRR@20 0.0989 HR@20 0.1250 (69s)
+epoch   2 loss 19.0117 val MRR@20 0.0920 HR@20 0.1180 (140s)
+epoch   3 loss 14.6793 val MRR@20 0.0415 HR@20 0.0594 (213s)
+epoch   4 loss 11.0608 val MRR@20 0.0710 HR@20 0.0941 (283s)
+epoch   5 loss 10.3988 val MRR@20 0.0878 HR@20 0.1126 (354s)
+TEST {
+  "HR@10": 0.1363232174590856,
+  "MRR@10": 0.1101685037608774,
+  "NDCG@10": 0.11663373867989736,
+  "Coverage@10": 0.028378755423738123,
+  "HR@20": 0.14269138972799317,
+  "MRR@20": 0.11062207995601725,
+  "NDCG@20": 0.1182576729243057,
+  "Coverage@20": 0.054903498654363676
+}
+wrote results/real/sweep/sens_M2.json + results/real/sweep/sens_M2.pt (best epoch 1)
+epoch   1 loss 24.0645 val MRR@20 0.0975 HR@20 0.1252 (68s)
+epoch   2 loss 19.0215 val MRR@20 0.0908 HR@20 0.1155 (142s)
+epoch   3 loss 14.6527 val MRR@20 0.0425 HR@20 0.0592 (218s)
+epoch   4 loss 11.0465 val MRR@20 0.0711 HR@20 0.0935 (292s)
+epoch   5 loss 10.4023 val MRR@20 0.0895 HR@20 0.1144 (365s)
+TEST {
+  "HR@10": 0.13601251146873505,
+  "MRR@10": 0.10987804398437796,
+  "NDCG@10": 0.11632896507254496,
+  "Coverage@10": 0.028375020596473868,
+  "HR@20": 0.14224938121663422,
+  "MRR@20": 0.11031961563501326,
+  "NDCG@20": 0.11791683074323397,
+  "Coverage@20": 0.05478310539902231
+}
+wrote results/real/sweep/sens_M3.json + results/real/sweep/sens_M3.pt (best epoch 1)
+epoch   1 loss 24.0354 val MRR@20 0.0978 HR@20 0.1234 (69s)
+epoch   2 loss 19.0119 val MRR@20 0.0900 HR@20 0.1146 (141s)
+epoch   3 loss 14.6190 val MRR@20 0.0420 HR@20 0.0603 (212s)
+epoch   4 loss 11.0446 val MRR@20 0.0715 HR@20 0.0949 (287s)
+epoch   5 loss 10.4024 val MRR@20 0.0905 HR@20 0.1170 (363s)
+TEST {
+  "HR@10": 0.136126263677573,
+  "MRR@10": 0.11062188431396194,
+  "NDCG@10": 0.11693837791086185,
+  "Coverage@10": 0.028386225078266603,
+  "HR@20": 0.14231503247713842,
+  "MRR@20": 0.1110586531212945,
+  "NDCG@20": 0.11851238950433624,
+  "Coverage@20": 0.05491382435327071
+}
+wrote results/real/sweep/sens_M4.json + results/real/sweep/sens_M4.pt (best epoch 1)
+epoch   1 loss 23.8857 val MRR@20 0.1069 HR@20 0.1346 (58s)
+epoch   2 loss 18.9237 val MRR@20 0.0971 HR@20 0.1234 (117s)
+epoch   3 loss 14.0555 val MRR@20 0.0466 HR@20 0.0632 (178s)
+epoch   4 loss 10.8716 val MRR@20 0.0839 HR@20 0.1090 (238s)
+epoch   5 loss 10.3688 val MRR@20 0.1002 HR@20 0.1286 (301s)
+TEST {
+  "HR@10": 0.14277459130066783,
+  "MRR@10": 0.11593100711906627,
+  "NDCG@10": 0.12255609016089067,
+  "Coverage@10": 0.027981325863678803,
+  "HR@20": 0.14896336010023326,
+  "MRR@20": 0.11636803823841155,
+  "NDCG@20": 0.12413055023604794,
+  "Coverage@20": 0.05399373867193937
+}
+wrote results/real/sweep/sens_h1.json + results/real/sweep/sens_h1.pt (best epoch 1)
+epoch   1 loss 24.0553 val MRR@20 0.0983 HR@20 0.1246 (67s)
+epoch   2 loss 19.0556 val MRR@20 0.0924 HR@20 0.1185 (138s)
+epoch   3 loss 14.7529 val MRR@20 0.0441 HR@20 0.0621 (207s)
+epoch   4 loss 11.0970 val MRR@20 0.0699 HR@20 0.0935 (281s)
+epoch   5 loss 10.4034 val MRR@20 0.0898 HR@20 0.1150 (354s)
+TEST {
+  "HR@10": 0.13719423415781068,
+  "MRR@10": 0.11120237170632057,
+  "NDCG@10": 0.11763076857569234,
+  "Coverage@10": 0.02843060361399461,
+  "HR@20": 0.14369370894772665,
+  "MRR@20": 0.11166416229178837,
+  "NDCG@20": 0.1192866572333023,
+  "Coverage@20": 0.05505552809359035
+}
+wrote results/real/sweep/sens_h2.json + results/real/sweep/sens_h2.pt (best epoch 1)
+epoch   1 loss 24.0704 val MRR@20 0.0900 HR@20 0.1143 (99s)
+epoch   2 loss 19.2256 val MRR@20 0.0851 HR@20 0.1077 (201s)
+epoch   3 loss 15.4850 val MRR@20 0.0780 HR@20 0.0999 (304s)
+epoch   4 loss 12.2366 val MRR@20 0.0470 HR@20 0.0656 (406s)
+epoch   5 loss 10.5243 val MRR@20 0.0740 HR@20 0.0959 (510s)
+TEST {
+  "HR@10": 0.13001614633728475,
+  "MRR@10": 0.1046955896406183,
+  "NDCG@10": 0.11095301632858749,
+  "Coverage@10": 0.028815730213654085,
+  "HR@20": 0.1355965034801419,
+  "MRR@20": 0.10507686443119182,
+  "NDCG@20": 0.11235667844642734,
+  "Coverage@20": 0.05594068215521501
+}
+wrote results/real/sweep/sens_h4.json + results/real/sweep/sens_h4.pt (best epoch 1)
+epoch   1 loss 24.0208 val MRR@20 0.0814 HR@20 0.1035 (164s)
+epoch   2 loss 19.0884 val MRR@20 0.0769 HR@20 0.0979 (335s)
+epoch   3 loss 15.3571 val MRR@20 0.0722 HR@20 0.0919 (485s)
+epoch   4 loss 12.2680 val MRR@20 0.0451 HR@20 0.0639 (647s)
+epoch   5 loss 10.5331 val MRR@20 0.0675 HR@20 0.0882 (812s)
+TEST {
+  "HR@10": 0.12432203698558968,
+  "MRR@10": 0.10009921481797993,
+  "NDCG@10": 0.10607772949056773,
+  "Coverage@10": 0.028976327786016363,
+  "HR@20": 0.12963978908643,
+  "MRR@20": 0.10047112325828934,
+  "NDCG@20": 0.10742585379104963,
+  "Coverage@20": 0.05619245345196902
+}
+wrote results/real/sweep/sens_h8.json + results/real/sweep/sens_h8.pt (best epoch 1)
+epoch   1 loss 15.8937 val MRR@20 0.0618 HR@20 0.0896 (63s)
+epoch   2 loss 13.7934 val MRR@20 0.0605 HR@20 0.0872 (121s)
+epoch   3 loss 12.4695 val MRR@20 0.0594 HR@20 0.0862 (185s)
+epoch   4 loss 11.5124 val MRR@20 0.0600 HR@20 0.0874 (244s)
+epoch   5 loss 10.8999 val MRR@20 0.0584 HR@20 0.0845 (299s)
+TEST {
+  "HR@10": 0.0913826545246509,
+  "MRR@10": 0.0710923986169892,
+  "NDCG@10": 0.07594711689088018,
+  "Coverage@10": 0.02802943922667107,
+  "HR@20": 0.1003287763280027,
+  "MRR@20": 0.07171739391844317,
+  "NDCG@20": 0.07821419875105196,
+  "Coverage@20": 0.05346712802768164
+}
+wrote results/real/sweep/sens_d32.json + results/real/sweep/sens_d32.pt (best epoch 1)
+epoch   1 loss 24.0332 val MRR@20 0.0987 HR@20 0.1256 (68s)
+epoch   2 loss 19.0379 val MRR@20 0.0903 HR@20 0.1162 (141s)
+epoch   3 loss 14.6232 val MRR@20 0.0406 HR@20 0.0591 (217s)
+epoch   4 loss 11.0382 val MRR@20 0.0705 HR@20 0.0954 (294s)
+epoch   5 loss 10.4017 val MRR@20 0.0893 HR@20 0.1157 (368s)
+TEST {
+  "HR@10": 0.136454519980094,
+  "MRR@10": 0.10989648518861159,
+  "NDCG@10": 0.11644360256830838,
+  "Coverage@10": 0.02840138408304499,
+  "HR@20": 0.14223183090446376,
+  "MRR@20": 0.11029980195839183,
+  "NDCG@20": 0.11790697523560496,
+  "Coverage@20": 0.05492151370352062
+}
+wrote results/real/sweep/sens_d64.json + results/real/sweep/sens_d64.pt (best epoch 1)
+epoch   1 loss 43.2736 val MRR@20 0.1168 HR@20 0.1529 (97s)
+epoch   2 loss 21.8137 val MRR@20 0.0439 HR@20 0.0553 (208s)
+epoch   3 loss 13.2181 val MRR@20 0.0624 HR@20 0.0773 (315s)
+epoch   4 loss 10.9127 val MRR@20 0.0958 HR@20 0.1223 (417s)
+epoch   5 loss 10.2821 val MRR@20 0.1134 HR@20 0.1471 (528s)
+TEST {
+  "HR@10": 0.1626188222851072,
+  "MRR@10": 0.1265638210316428,
+  "NDCG@10": 0.135545014658152,
+  "Coverage@10": 0.026557038501675168,
+  "HR@20": 0.16775717091660539,
+  "MRR@20": 0.12692127426324842,
+  "NDCG@20": 0.13684521839041236,
+  "Coverage@20": 0.05014972263415169
+}
+wrote results/real/sweep/sens_d128.json + results/real/sweep/sens_d128.pt (best epoch 1)
+epoch   1 loss 24.0483 val MRR@20 0.0986 HR@20 0.1256 (88s)
+epoch   2 loss 19.0869 val MRR@20 0.0916 HR@20 0.1167 (177s)
+epoch   3 loss 14.8100 val MRR@20 0.0432 HR@20 0.0625 (267s)
+epoch   4 loss 11.1199 val MRR@20 0.0702 HR@20 0.0918 (353s)
+epoch   5 loss 10.4052 val MRR@20 0.0889 HR@20 0.1131 (435s)
+TEST {
+  "HR@10": 0.1369797300641276,
+  "MRR@10": 0.11086391184018102,
+  "NDCG@10": 0.1173075911025555,
+  "Coverage@10": 0.028440929312901632,
+  "HR@20": 0.14321659981202678,
+  "MRR@20": 0.1113002978554159,
+  "NDCG@20": 0.11888862108468155,
+  "Coverage@20": 0.05505596748503323
+}
+wrote results/real/sweep/sens_entmax.json + results/real/sweep/sens_entmax.pt (best epoch 1)
+epoch   1 loss 24.2551 val MRR@20 0.0890 HR@20 0.1107 (15s)
+epoch   2 loss 18.8532 val MRR@20 0.0800 HR@20 0.1014 (30s)
+epoch   3 loss 13.5321 val MRR@20 0.0426 HR@20 0.0596 (47s)
+epoch   4 loss 10.7480 val MRR@20 0.0734 HR@20 0.0960 (64s)
+epoch   5 loss 10.3994 val MRR@20 0.0839 HR@20 0.1078 (81s)
+TEST {
+  "HR@10": 0.1289046250221108,
+  "MRR@10": 0.10408866720458357,
+  "NDCG@10": 0.11019127117520273,
+  "Coverage@10": 0.028249134948096884,
+  "HR@20": 0.13448498216496796,
+  "MRR@20": 0.10446332315605546,
+  "NDCG@20": 0.11158673111164924,
+  "Coverage@20": 0.05435140330642061
+}
+wrote results/real/sweep/sens_softmax.json + results/real/sweep/sens_softmax.pt (best epoch 1)
+wrote results/real/sensitivity_diginetica.json
+digi rc=0
+wrote results/real/sensitivity_nowplaying.json
+now rc=0

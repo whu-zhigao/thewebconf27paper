@@ -1,0 +1,10 @@
+{
+  "dataset": "data/retailrocket.pkl",
+  "n_test": 4334,
+  "P1_multi_intent_fraction": 0.8228,
+  "P2_shift_fraction": 0.2501,
+  "P2_hr_stable": 0.6345,
+  "P2_hr_shift": 0.19,
+  "P2_hr_gap": 0.4444,
+  "P3_local_dominance_fraction": 0.7937
+}

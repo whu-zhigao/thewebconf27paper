@@ -1,0 +1,10 @@
+{
+  "dataset": "data/yoochoose.pkl",
+  "n_test": 11145,
+  "P1_multi_intent_fraction": 0.8332,
+  "P2_shift_fraction": 0.25,
+  "P2_hr_stable": 0.6631,
+  "P2_hr_shift": 0.2699,
+  "P2_hr_gap": 0.3932,
+  "P3_local_dominance_fraction": 0.8292
+}

@@ -1,0 +1,11 @@
+[10-17 17:12:51] NOD-CELLS RUNNER device=cuda
+[10-17 17:12:51] RUN diginetica --model mplignn --ablation no_residual,no_denoise --lr 1e-3
+[10-17 17:14:36]   -> rc=0 ok=True 1.7min
+[10-17 17:14:36] RUN diginetica --model mplignn --ablation no_denoise --lr 1e-3
+[10-17 17:22:45]   -> rc=0 ok=True 8.2min
+[10-17 17:22:45] RUN gowalla --model mplignn --ablation no_residual,no_denoise --lr 1e-3
+[10-17 17:34:16]   -> rc=0 ok=True 11.5min
+[10-17 17:34:16] RUN gowalla --model mplignn --ablation no_denoise --lr 1e-3
+[10-17 17:46:11]   -> rc=0 ok=True 11.9min
+[10-17 17:46:11] --- summary (HR@20 / MRR@20, %) ---
+[10-17 17:46:11] NOD-CELLS COMPLETE

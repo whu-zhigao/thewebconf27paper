@@ -1,0 +1,10 @@
+{
+  "dataset": "data/gowalla.pkl",
+  "n_test": 78966,
+  "P1_multi_intent_fraction": 0.835,
+  "P2_shift_fraction": 0.238,
+  "P2_hr_stable": 0.3396,
+  "P2_hr_shift": 0.1524,
+  "P2_hr_gap": 0.1872,
+  "P3_local_dominance_fraction": 0.6722
+}

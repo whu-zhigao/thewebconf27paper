@@ -1,0 +1,17 @@
+{
+  "dataset": "diginetica",
+  "checkpoint": "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/results/real/abl_no_residual_diginetica.pt",
+  "n_test": 15205,
+  "beta_entropy_mean": 1.0188558599816384,
+  "beta_entropy_normalised_mean": 0.7336402670219446,
+  "gate": {
+    "alpha_satt": 1.4758034944534302,
+    "alpha_natt": 1.515368494666925,
+    "satt_sparsity": 0.9968407940463859,
+    "natt_sparsity": 0.16342731202099503
+  },
+  "hr20": 0.23801381124630056,
+  "corr_entropy_norm_vs_correct": -0.11285605206306343,
+  "hr20_low_entropy_half": 0.275321417372217,
+  "hr20_high_entropy_half": 0.17470734302944307
+}

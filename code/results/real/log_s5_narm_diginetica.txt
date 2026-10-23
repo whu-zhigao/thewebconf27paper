@@ -1,0 +1,19 @@
+epoch   1 loss 10.5566 val MRR@20 0.0805 HR@20 0.1130 (7s)
+epoch   2 loss 10.1908 val MRR@20 0.1068 HR@20 0.1389 (15s)
+epoch   3 loss 10.0534 val MRR@20 0.1136 HR@20 0.1468 (22s)
+epoch   4 loss 9.9523 val MRR@20 0.1148 HR@20 0.1500 (29s)
+epoch   5 loss 9.8887 val MRR@20 0.1148 HR@20 0.1515 (36s)
+epoch   6 loss 9.8298 val MRR@20 0.1146 HR@20 0.1523 (44s)
+epoch   7 loss 9.7673 val MRR@20 0.1127 HR@20 0.1508 (51s)
+epoch   8 loss 9.7049 val MRR@20 0.1106 HR@20 0.1484 (58s)
+TEST {
+  "HR@10": 0.152329124698118,
+  "MRR@10": 0.12299487995448252,
+  "NDCG@10": 0.1301465443690289,
+  "Coverage@10": 0.02744526830339978,
+  "HR@20": 0.16015917501028845,
+  "MRR@20": 0.12355279625522156,
+  "NDCG@20": 0.1321445202899858,
+  "Coverage@20": 0.05255956500247159
+}
+wrote results/real/seed_narm_diginetica_s5.json + results/real/seed_narm_diginetica_s5.pt (best epoch 4)

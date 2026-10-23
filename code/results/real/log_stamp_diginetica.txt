@@ -1,0 +1,16 @@
+epoch   1 loss 42.7788 val MRR@20 0.0752 HR@20 0.0923 (6s)
+epoch   2 loss 23.8307 val MRR@20 0.0380 HR@20 0.0578 (13s)
+epoch   3 loss 18.8884 val MRR@20 0.0322 HR@20 0.0536 (19s)
+epoch   4 loss 16.1465 val MRR@20 0.0293 HR@20 0.0522 (25s)
+epoch   5 loss 14.3266 val MRR@20 0.0305 HR@20 0.0532 (31s)
+TEST {
+  "HR@10": 0.08680006655073967,
+  "MRR@10": 0.07525132234672513,
+  "NDCG@10": 0.07802824814491546,
+  "Coverage@10": 0.028552534739385946,
+  "HR@20": 0.09073914218099177,
+  "MRR@20": 0.07552184682373214,
+  "NDCG@20": 0.07902072184500708,
+  "Coverage@20": 0.0546780908441808
+}
+wrote results/real/stamp_diginetica.json + results/real/stamp_diginetica.pt (best epoch 1)

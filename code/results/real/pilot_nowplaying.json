@@ -1,0 +1,10 @@
+{
+  "dataset": "data/nowplaying.pkl",
+  "n_test": 13842,
+  "P1_multi_intent_fraction": 0.9807,
+  "P2_shift_fraction": 0.25,
+  "P2_hr_stable": 0.1508,
+  "P2_hr_shift": 0.0754,
+  "P2_hr_gap": 0.0753,
+  "P3_local_dominance_fraction": 0.5979
+}

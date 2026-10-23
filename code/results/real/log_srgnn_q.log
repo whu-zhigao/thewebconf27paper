@@ -1,0 +1,25 @@
+=== srgnn Thu Oct  1 20:49:00 CST 2026 ===
+epoch   1 loss 35.9684 val MRR@20 0.1805 HR@20 0.2051 (14s)
+epoch   2 loss 26.0775 val MRR@20 0.2214 HR@20 0.2540 (29s)
+epoch   3 loss 16.4140 val MRR@20 0.2113 HR@20 0.2475 (44s)
+epoch   4 loss 10.6676 val MRR@20 0.2154 HR@20 0.2589 (59s)
+epoch   5 loss 8.8848 val MRR@20 0.2268 HR@20 0.2742 (73s)
+epoch   6 loss 8.3445 val MRR@20 0.2334 HR@20 0.2865 (88s)
+epoch   7 loss 8.0047 val MRR@20 0.2370 HR@20 0.2956 (103s)
+epoch   8 loss 7.7755 val MRR@20 0.2387 HR@20 0.3060 (118s)
+epoch   9 loss 7.5342 val MRR@20 0.2400 HR@20 0.3146 (133s)
+epoch  10 loss 7.3319 val MRR@20 0.2414 HR@20 0.3231 (148s)
+epoch  11 loss 7.1055 val MRR@20 0.2439 HR@20 0.3310 (163s)
+epoch  12 loss 6.8978 val MRR@20 0.2463 HR@20 0.3375 (178s)
+TEST {
+  "HR@10": 0.22956188959031065,
+  "MRR@10": 0.18661868575033974,
+  "NDCG@10": 0.1969783510215116,
+  "Coverage@10": 0.022338376911105382,
+  "HR@20": 0.24511058419203954,
+  "MRR@20": 0.18768877183401342,
+  "NDCG@20": 0.2008977080202031,
+  "Coverage@20": 0.03588729513572096
+}
+wrote results/real/srgnn_yoochoose_quarter.json + results/real/srgnn_yoochoose_quarter.pt (best epoch 12)
+exit=0

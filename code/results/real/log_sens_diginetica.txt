@@ -1,0 +1,31 @@
+epoch   1 loss 24.9293 val MRR@20 0.1008 HR@20 0.1287 (68s)
+epoch   2 loss 19.9283 val MRR@20 0.0853 HR@20 0.1113 (142s)
+epoch   3 loss 13.7858 val MRR@20 0.0489 HR@20 0.0640 (213s)
+epoch   4 loss 10.8209 val MRR@20 0.0799 HR@20 0.1032 (286s)
+epoch   5 loss 10.3735 val MRR@20 0.0954 HR@20 0.1203 (362s)
+Traceback (most recent call last):
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/train.py", line 254, in <module>
+    main()
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/train.py", line 233, in main
+    torch.save(best_state, ckpt)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/serialization.py", line 849, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/serialization.py", line 716, in _open_zipfile_writer
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/serialization.py", line 687, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Parent directory results/real/sweep does not exist.
+Traceback (most recent call last):
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/sensitivity.py", line 72, in <module>
+    main()
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/sensitivity.py", line 46, in main
+    curves["local_depth_L"][str(l)] = run_one(
+                                      ^^^^^^^^
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/sensitivity.py", line 31, in run_one
+    subprocess.run(cmd, check=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3', '/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/train.py', '--data', 'data/diginetica.pkl', '--model', 'mplignn', '--dim', '64', '--local-layers', '1', '--global-blocks', '2', '--heads', '2', '--epochs', '12', '--patience', '4', '--max-batches', '300', '--lr', '0.0005', '--device', 'cpu', '--out', 'results/real/sweep/sens_L1.json']' returned non-zero exit status 1.
