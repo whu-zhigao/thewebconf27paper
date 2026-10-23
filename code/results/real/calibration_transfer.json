@@ -1,0 +1,32 @@
+{
+  "diginetica": {
+    "mpli_gate": {
+      "exact_zero_frac": 0.004,
+      "mean_margin": 0.0845
+    },
+    "gcegnn_gate": {
+      "exact_zero_frac": 0.0,
+      "mean_margin": 0.2101
+    }
+  },
+  "gowalla": {
+    "mpli_gate": {
+      "exact_zero_frac": 0.001,
+      "mean_margin": 0.0704
+    },
+    "gcegnn_gate": {
+      "exact_zero_frac": 0.0,
+      "mean_margin": 0.1497
+    }
+  },
+  "yoochoose_quarter": {
+    "mpli_gate": {
+      "exact_zero_frac": 0.0034,
+      "mean_margin": 0.0813
+    },
+    "gcegnn_gate": {
+      "exact_zero_frac": 0.0,
+      "mean_margin": 0.1167
+    }
+  }
+}
