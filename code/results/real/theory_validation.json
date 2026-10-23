@@ -1,0 +1,57 @@
+{
+  "operator_note": "lambda measured on the bidirectional row-normalized session adjacency, matching the model's propagation operator; amended before any GCE-GNN audit result existed",
+  "preregistered_predictions": {
+    "diginetica": {
+      "adaptive_alpha_mean": 1.535,
+      "adaptive_alpha_range": [
+        1.389,
+        1.761
+      ],
+      "lambda": 0.0164,
+      "margin0_top1_top2": 0.0848,
+      "tau_support_width": 0.2685,
+      "mean_top1": 0.1596,
+      "predicted_L*": 1,
+      "raw_L*": -68.72
+    },
+    "gowalla": {
+      "adaptive_alpha_mean": 1.458,
+      "adaptive_alpha_range": [
+        1.239,
+        1.609
+      ],
+      "lambda": 0.0154,
+      "margin0_top1_top2": 0.0749,
+      "tau_support_width": 0.2128,
+      "mean_top1": 0.0931,
+      "predicted_L*": 1,
+      "raw_L*": -66.17
+    },
+    "yoochoose_quarter": {
+      "adaptive_alpha_mean": 1.495,
+      "adaptive_alpha_range": [
+        1.248,
+        1.72
+      ],
+      "lambda": 0.0219,
+      "margin0_top1_top2": 0.0821,
+      "tau_support_width": 0.2363,
+      "mean_top1": 0.1376,
+      "predicted_L*": 1,
+      "raw_L*": -46.78
+    },
+    "nowplaying": {
+      "adaptive_alpha_mean": 1.597,
+      "adaptive_alpha_range": [
+        1.477,
+        1.838
+      ],
+      "lambda": 0.0032,
+      "margin0_top1_top2": 0.1018,
+      "tau_support_width": 0.3925,
+      "mean_top1": 0.2656,
+      "predicted_L*": 1,
+      "raw_L*": -425.57
+    }
+  }
+}

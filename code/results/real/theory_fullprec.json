@@ -1,0 +1,29 @@
+{
+  "note": "full-precision re-measurement of theory_validation.py inputs; same seeds, same checkpoints, no rounding",
+  "datasets": {
+    "diginetica": {
+      "lambda": 0.01640106445451888,
+      "margin0_top1_top2": 0.08475587960924862,
+      "tau_support_width": 0.26845906834963074,
+      "raw_L*": -68.7175903884576
+    },
+    "gowalla": {
+      "lambda": 0.015436394190445844,
+      "margin0_top1_top2": 0.07486016847035402,
+      "tau_support_width": 0.2128332119360808,
+      "raw_L*": -66.16602971115097
+    },
+    "yoochoose_quarter": {
+      "lambda": 0.021882717031854477,
+      "margin0_top1_top2": 0.08209233975554485,
+      "tau_support_width": 0.23625402111370686,
+      "raw_L*": -46.77535273916593
+    },
+    "nowplaying": {
+      "lambda": 0.0031590578700149367,
+      "margin0_top1_top2": 0.10178445967809285,
+      "tau_support_width": 0.3925067462897029,
+      "raw_L*": -425.57125475549316
+    }
+  }
+}
