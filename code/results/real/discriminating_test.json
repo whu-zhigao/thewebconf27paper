@@ -1,0 +1,32 @@
+{
+  "registered_at": "2026-10-08T11:41:56+0800",
+  "corpus": {
+    "n_items": 1200,
+    "n_groups": 30,
+    "n_train": 10000,
+    "length": 28,
+    "seed": 7
+  },
+  "lambda": 0.0012,
+  "margin0": 0.1822,
+  "tau_width": 0.5703,
+  "raw_L*": -919.3,
+  "predicted_L*": 1,
+  "empirical": {
+    "1": {
+      "HR@20": 2.64,
+      "MRR@20": 0.8
+    },
+    "2": {
+      "HR@20": 1.78,
+      "MRR@20": 0.43
+    },
+    "3": {
+      "HR@20": 3.64,
+      "MRR@20": 0.58
+    }
+  },
+  "empirical_best_L": 3,
+  "verdict": "REFUTED",
+  "wall_minutes": 0.3
+}

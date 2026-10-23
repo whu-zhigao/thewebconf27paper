@@ -1,0 +1,30 @@
+{
+  "diginetica.pkl": {
+    "sha256": "5a3f276158e5ed99ab68875eb6954ebbc6199221abfc279e94f3a227e74a74b7",
+    "bytes": 3451340
+  },
+  "gowalla.pkl": {
+    "sha256": "fc541387ac2c6cf6126771a25d7b4da5c2b1ac06fbafd631084cd6e6c54a1f60",
+    "bytes": 5189043
+  },
+  "nowplaying.pkl": {
+    "sha256": "2aedaf1ea6a3c1f213ec42fd18d6e6afb982a0fc5ccdb3a65d80b436068b5fe4",
+    "bytes": 3497698
+  },
+  "retailrocket.pkl": {
+    "sha256": "4bd9518ea48f68b16629b99390cbb868bcbe301895ab8efff6db984a4236f1a4",
+    "bytes": 2263890
+  },
+  "synthetic.pkl": {
+    "sha256": "8a672a614617cf96c9c957a1ed098da8fc2f8129f02647c9bdcc19c3d76ebd6f",
+    "bytes": 122255
+  },
+  "yoochoose.pkl": {
+    "sha256": "32d5fea92774f3a3de77f4139cad5faedb70dc7803e51711e578a22377e513aa",
+    "bytes": 1610977
+  },
+  "yoochoose_quarter.pkl": {
+    "sha256": "c066a256d22c34228f94b59514449bea65317194528d6ffa03df71f706821db1",
+    "bytes": 29269663
+  }
+}

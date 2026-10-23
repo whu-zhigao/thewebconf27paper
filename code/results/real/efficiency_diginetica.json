@@ -1,0 +1,16 @@
+{
+  "device": "cpu",
+  "B=1": {
+    "ms_per_session": 0.289,
+    "params": 2560066
+  },
+  "B=8": {
+    "ms_per_session": 0.292,
+    "params": 2560066
+  },
+  "latency_by_session_length": {
+    "5": 0.174,
+    "10": 0.251,
+    "20": 0.26
+  }
+}
