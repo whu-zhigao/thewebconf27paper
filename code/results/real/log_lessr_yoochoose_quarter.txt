@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/train.py", line 236, in <module>
+    main()
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/scripts/train.py", line 183, in main
+    out = model(seqs, lens, a, a_r, r0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhigao/Library/Python/3.11/lib/python/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/workspace/VSworkspace/papers/Session Recommendation-WWW/code/mplignn/baselines.py", line 159, in forward
+    e = self.embedding(seqs) + self.pos.weight[:t].unsqueeze(0)
+        ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RuntimeError: The size of tensor a (71) must match the size of tensor b (64) at non-singleton dimension 1
+epoch   1 loss 27.1534 val MRR@20 0.1697 HR@20 0.2147 (14s)
+epoch   2 loss 14.7213 val MRR@20 0.2066 HR@20 0.2463 (28s)
+epoch   3 loss 10.7879 val MRR@20 0.2249 HR@20 0.2647 (44s)
+epoch   4 loss 9.0519 val MRR@20 0.2355 HR@20 0.2757 (59s)
+epoch   5 loss 8.4085 val MRR@20 0.2395 HR@20 0.2816 (74s)
+epoch   6 loss 8.0891 val MRR@20 0.2387 HR@20 0.2841 (89s)
+epoch   7 loss 7.8414 val MRR@20 0.2368 HR@20 0.2885 (104s)
+epoch   8 loss 7.6215 val MRR@20 0.2339 HR@20 0.2908 (119s)
+epoch   9 loss 7.4032 val MRR@20 0.2302 HR@20 0.2925 (135s)
+TEST {
+  "HR@10": 0.21836847300864448,
+  "MRR@10": 0.19104824007497884,
+  "NDCG@10": 0.19768296492269935,
+  "Coverage@10": 0.034996491043987187,
+  "HR@20": 0.23225018788467755,
+  "MRR@20": 0.19205434123301848,
+  "NDCG@20": 0.20124617886220844,
+  "Coverage@20": 0.059665547801395595
+}
+wrote results/real/lessr_yoochoose_quarter.json + results/real/lessr_yoochoose_quarter.pt (best epoch 5)

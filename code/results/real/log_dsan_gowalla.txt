@@ -1,0 +1,23 @@
+epoch   1 loss 29.1193 val MRR@20 0.0115 HR@20 0.0184 (13s)
+epoch   2 loss 14.0009 val MRR@20 0.0229 HR@20 0.0340 (28s)
+epoch   3 loss 11.6377 val MRR@20 0.0319 HR@20 0.0458 (42s)
+epoch   4 loss 10.6561 val MRR@20 0.0387 HR@20 0.0548 (56s)
+epoch   5 loss 10.1383 val MRR@20 0.0459 HR@20 0.0620 (70s)
+epoch   6 loss 9.8965 val MRR@20 0.0504 HR@20 0.0628 (84s)
+epoch   7 loss 9.7899 val MRR@20 0.0510 HR@20 0.0636 (99s)
+epoch   8 loss 9.7287 val MRR@20 0.0511 HR@20 0.0656 (113s)
+epoch   9 loss 9.6651 val MRR@20 0.0506 HR@20 0.0686 (128s)
+epoch  10 loss 9.5848 val MRR@20 0.0470 HR@20 0.0709 (143s)
+epoch  11 loss 9.5160 val MRR@20 0.0449 HR@20 0.0721 (157s)
+epoch  12 loss 9.4661 val MRR@20 0.0435 HR@20 0.0738 (172s)
+TEST {
+  "HR@10": 0.05981156257746478,
+  "MRR@10": 0.04905625069359967,
+  "NDCG@10": 0.05161648724583808,
+  "Coverage@10": 0.014999554039716808,
+  "HR@20": 0.06583978311797209,
+  "MRR@20": 0.04946606628063759,
+  "NDCG@20": 0.05313006396403173,
+  "Coverage@20": 0.028408021191297934
+}
+wrote results/real/dsan_gowalla.json + results/real/dsan_gowalla.pt (best epoch 8)

@@ -1,0 +1,23 @@
+epoch   1 loss 25.8725 val MRR@20 0.0821 HR@20 0.1140 (9s)
+epoch   2 loss 15.3031 val MRR@20 0.0632 HR@20 0.0951 (18s)
+epoch   3 loss 10.9693 val MRR@20 0.0738 HR@20 0.1147 (27s)
+epoch   4 loss 9.5105 val MRR@20 0.0914 HR@20 0.1434 (36s)
+epoch   5 loss 8.9553 val MRR@20 0.1118 HR@20 0.1660 (46s)
+epoch   6 loss 8.7487 val MRR@20 0.1241 HR@20 0.1739 (55s)
+epoch   7 loss 8.6262 val MRR@20 0.1304 HR@20 0.1770 (64s)
+epoch   8 loss 8.4935 val MRR@20 0.1294 HR@20 0.1842 (74s)
+epoch   9 loss 8.4084 val MRR@20 0.1348 HR@20 0.1954 (83s)
+epoch  10 loss 8.2595 val MRR@20 0.1391 HR@20 0.1976 (93s)
+epoch  11 loss 8.0822 val MRR@20 0.1405 HR@20 0.2031 (102s)
+epoch  12 loss 7.9308 val MRR@20 0.1495 HR@20 0.2199 (112s)
+TEST {
+  "HR@10": 0.1961213702505285,
+  "MRR@10": 0.14156316229226915,
+  "NDCG@10": 0.15459364363829595,
+  "Coverage@10": 0.03730822074650791,
+  "HR@20": 0.22479679638689215,
+  "MRR@20": 0.1435440951026976,
+  "NDCG@20": 0.1618322805322782,
+  "Coverage@20": 0.06366355621708265
+}
+wrote results/real/gcegnn_yoochoose.json + results/real/gcegnn_yoochoose.pt (best epoch 12)

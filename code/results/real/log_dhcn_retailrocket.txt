@@ -1,0 +1,17 @@
+epoch   1 loss 33.7172 val MRR@20 0.1958 HR@20 0.2386 (6s)
+epoch   2 loss 22.6873 val MRR@20 0.2232 HR@20 0.2766 (13s)
+epoch   3 loss 14.4985 val MRR@20 0.1973 HR@20 0.2587 (19s)
+epoch   4 loss 9.9338 val MRR@20 0.1936 HR@20 0.2541 (26s)
+epoch   5 loss 8.7054 val MRR@20 0.2069 HR@20 0.2656 (32s)
+epoch   6 loss 8.3328 val MRR@20 0.2167 HR@20 0.2754 (39s)
+TEST {
+  "HR@10": 0.3045496327035567,
+  "MRR@10": 0.2569481891505221,
+  "NDCG@10": 0.26860156482394365,
+  "Coverage@10": 0.04096957358064025,
+  "HR@20": 0.31814421801006093,
+  "MRR@20": 0.2579140570074479,
+  "NDCG@20": 0.2720685462741291,
+  "Coverage@20": 0.07802705305068425
+}
+wrote results/real/dhcn_retailrocket.json + results/real/dhcn_retailrocket.pt (best epoch 2)

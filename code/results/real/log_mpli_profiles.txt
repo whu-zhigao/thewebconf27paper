@@ -1,0 +1,36 @@
+=== mplignn B1 profile Fri Oct  2 16:35:01 CST 2026 ===
+epoch   1 loss 24.0251 val MRR@20 0.0997 HR@20 0.1261 (68s)
+epoch   2 loss 19.0017 val MRR@20 0.0907 HR@20 0.1164 (137s)
+epoch   3 loss 14.7958 val MRR@20 0.0409 HR@20 0.0591 (206s)
+epoch   4 loss 11.1104 val MRR@20 0.0690 HR@20 0.0922 (276s)
+epoch   5 loss 10.4040 val MRR@20 0.0898 HR@20 0.1149 (345s)
+TEST {
+  "HR@10": 0.1366514737616066,
+  "MRR@10": 0.11054749702392387,
+  "NDCG@10": 0.11700148132820079,
+  "Coverage@10": 0.02840314164881638,
+  "HR@20": 0.14295399477000997,
+  "MRR@20": 0.11100053007799919,
+  "NDCG@20": 0.11861451105311127,
+  "Coverage@20": 0.05500324051189105
+}
+wrote results/real/mplignn_diginetica.json + results/real/mplignn_diginetica.pt (best epoch 1)
+exit=0
+=== mplignn B8 profile Fri Oct  2 16:40:59 CST 2026 ===
+epoch   1 loss 24.0456 val MRR@20 0.0979 HR@20 0.1249 (68s)
+epoch   2 loss 19.0699 val MRR@20 0.0929 HR@20 0.1188 (138s)
+epoch   3 loss 14.6589 val MRR@20 0.0421 HR@20 0.0589 (207s)
+epoch   4 loss 11.0422 val MRR@20 0.0731 HR@20 0.0961 (276s)
+epoch   5 loss 10.3942 val MRR@20 0.0898 HR@20 0.1156 (345s)
+TEST {
+  "HR@10": 0.13591175952128,
+  "MRR@10": 0.11014912884528372,
+  "NDCG@10": 0.11653232297987398,
+  "Coverage@10": 0.02836293733179545,
+  "HR@20": 0.14236313342547216,
+  "MRR@20": 0.1106211244985579,
+  "NDCG@20": 0.11819394064548161,
+  "Coverage@20": 0.05491931674630639
+}
+wrote results/real/mplignn_B8_diginetica.json + results/real/mplignn_B8_diginetica.pt (best epoch 1)
+exit=0

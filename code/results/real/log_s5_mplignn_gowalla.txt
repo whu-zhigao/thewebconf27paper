@@ -1,0 +1,23 @@
+epoch   1 loss 33.4631 val MRR@20 0.0539 HR@20 0.0651 (83s)
+epoch   2 loss 16.6716 val MRR@20 0.0457 HR@20 0.0600 (164s)
+epoch   3 loss 12.3716 val MRR@20 0.0540 HR@20 0.0694 (249s)
+epoch   4 loss 10.7418 val MRR@20 0.0654 HR@20 0.0820 (333s)
+epoch   5 loss 9.9686 val MRR@20 0.0683 HR@20 0.0928 (414s)
+epoch   6 loss 9.5102 val MRR@20 0.0669 HR@20 0.1091 (497s)
+epoch   7 loss 9.0887 val MRR@20 0.0800 HR@20 0.1467 (577s)
+epoch   8 loss 8.6618 val MRR@20 0.1038 HR@20 0.1884 (659s)
+epoch   9 loss 8.2325 val MRR@20 0.1317 HR@20 0.2260 (742s)
+epoch  10 loss 7.9124 val MRR@20 0.1612 HR@20 0.2588 (825s)
+epoch  11 loss 7.5867 val MRR@20 0.1868 HR@20 0.2834 (907s)
+epoch  12 loss 7.2954 val MRR@20 0.2062 HR@20 0.2995 (989s)
+TEST {
+  "HR@10": 0.28598540127760397,
+  "MRR@10": 0.2128174998307421,
+  "NDCG@10": 0.23034331437058167,
+  "Coverage@10": 0.028837558467121865,
+  "HR@20": 0.31429050319391866,
+  "MRR@20": 0.21479213551469492,
+  "NDCG@20": 0.23751363506788253,
+  "Coverage@20": 0.05426275093909619
+}
+wrote results/real/seed_mplignn_gowalla_s5.json + results/real/seed_mplignn_gowalla_s5.pt (best epoch 12)

@@ -1,0 +1,19 @@
+epoch   1 loss 11.1881 val MRR@20 0.0425 HR@20 0.0938 (8s)
+epoch   2 loss 9.0597 val MRR@20 0.2161 HR@20 0.2648 (16s)
+epoch   3 loss 8.4994 val MRR@20 0.2320 HR@20 0.2823 (24s)
+epoch   4 loss 8.3140 val MRR@20 0.2338 HR@20 0.2821 (32s)
+epoch   5 loss 8.2553 val MRR@20 0.2333 HR@20 0.2822 (40s)
+epoch   6 loss 8.1347 val MRR@20 0.2281 HR@20 0.2829 (48s)
+epoch   7 loss 8.0777 val MRR@20 0.2231 HR@20 0.2790 (56s)
+epoch   8 loss 7.9856 val MRR@20 0.2191 HR@20 0.2771 (64s)
+TEST {
+  "HR@10": 0.3269510356818928,
+  "MRR@10": 0.266703082939839,
+  "NDCG@10": 0.2816270303200273,
+  "Coverage@10": 0.04208448184307997,
+  "HR@20": 0.34234625627012816,
+  "MRR@20": 0.2677871121760996,
+  "NDCG@20": 0.28553797199445613,
+  "Coverage@20": 0.08009161637460917
+}
+wrote results/real/gru4rec_retailrocket.json + results/real/gru4rec_retailrocket.pt (best epoch 4)

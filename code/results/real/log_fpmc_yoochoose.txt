@@ -1,0 +1,16 @@
+epoch   1 loss 25.7637 val MRR@20 0.1870 HR@20 0.2444 (4s)
+epoch   2 loss 19.8418 val MRR@20 0.1727 HR@20 0.2251 (9s)
+epoch   3 loss 15.6306 val MRR@20 0.1577 HR@20 0.2114 (13s)
+epoch   4 loss 12.8599 val MRR@20 0.1500 HR@20 0.2014 (17s)
+epoch   5 loss 10.9804 val MRR@20 0.1436 HR@20 0.1979 (22s)
+TEST {
+  "HR@10": 0.19345801797780124,
+  "MRR@10": 0.1533457134718621,
+  "NDCG@10": 0.16308596103235778,
+  "Coverage@10": 0.0848594572933364,
+  "HR@20": 0.20848129757426,
+  "MRR@20": 0.15440182864308508,
+  "NDCG@20": 0.16690063814284525,
+  "Coverage@20": 0.15262193725669795
+}
+wrote results/real/fpmc_yoochoose.json + results/real/fpmc_yoochoose.pt (best epoch 1)

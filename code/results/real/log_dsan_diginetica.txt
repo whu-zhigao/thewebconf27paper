@@ -1,0 +1,22 @@
+epoch   1 loss 28.8842 val MRR@20 0.0150 HR@20 0.0230 (13s)
+epoch   2 loss 14.4968 val MRR@20 0.0273 HR@20 0.0382 (26s)
+epoch   3 loss 12.1327 val MRR@20 0.0430 HR@20 0.0547 (39s)
+epoch   4 loss 11.0457 val MRR@20 0.0633 HR@20 0.0756 (52s)
+epoch   5 loss 10.4715 val MRR@20 0.0852 HR@20 0.0952 (65s)
+epoch   6 loss 10.2371 val MRR@20 0.0953 HR@20 0.1011 (78s)
+epoch   7 loss 10.1511 val MRR@20 0.0970 HR@20 0.1023 (91s)
+epoch   8 loss 10.1323 val MRR@20 0.0952 HR@20 0.1005 (104s)
+epoch   9 loss 10.1160 val MRR@20 0.0930 HR@20 0.0982 (117s)
+epoch  10 loss 10.0795 val MRR@20 0.0915 HR@20 0.0978 (130s)
+epoch  11 loss 10.0505 val MRR@20 0.0891 HR@20 0.0966 (143s)
+TEST {
+  "HR@10": 0.10695955363892708,
+  "MRR@10": 0.1050788253832155,
+  "NDCG@10": 0.10553162791624036,
+  "Coverage@10": 0.025704838798264403,
+  "HR@20": 0.1078130200254817,
+  "MRR@20": 0.10513998162705268,
+  "NDCG@20": 0.10574996674236377,
+  "Coverage@20": 0.04720799692425988
+}
+wrote results/real/dsan_diginetica.json + results/real/dsan_diginetica.pt (best epoch 7)

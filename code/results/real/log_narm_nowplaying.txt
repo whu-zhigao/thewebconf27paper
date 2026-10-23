@@ -1,0 +1,22 @@
+epoch   1 loss 93263.9876 val MRR@20 0.0016 HR@20 0.0052 (11s)
+epoch   2 loss 10.8594 val MRR@20 0.0077 HR@20 0.0166 (22s)
+epoch   3 loss 1513.6901 val MRR@20 0.0129 HR@20 0.0225 (33s)
+epoch   4 loss 10.7692 val MRR@20 0.0166 HR@20 0.0288 (44s)
+epoch   5 loss 10.7295 val MRR@20 0.0175 HR@20 0.0314 (55s)
+epoch   6 loss 2147.5276 val MRR@20 0.0194 HR@20 0.0340 (66s)
+epoch   7 loss 10.6372 val MRR@20 0.0200 HR@20 0.0319 (77s)
+epoch   8 loss 10.5717 val MRR@20 0.0200 HR@20 0.0340 (89s)
+epoch   9 loss 10.4977 val MRR@20 0.0183 HR@20 0.0321 (100s)
+epoch  10 loss 10.4232 val MRR@20 0.0190 HR@20 0.0324 (111s)
+epoch  11 loss 10.3341 val MRR@20 0.0193 HR@20 0.0345 (122s)
+TEST {
+  "HR@10": 0.02616112385321101,
+  "MRR@10": 0.019142786720703537,
+  "NDCG@10": 0.020803032222913083,
+  "Coverage@10": 0.016509281337269206,
+  "HR@20": 0.030103211009174312,
+  "MRR@20": 0.019408679039670376,
+  "NDCG@20": 0.021789576691669334,
+  "Coverage@20": 0.030539201498497023
+}
+wrote results/real/narm_nowplaying.json + results/real/narm_nowplaying.pt (best epoch 7)

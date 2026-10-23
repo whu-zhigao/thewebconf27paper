@@ -1,0 +1,25 @@
+=== mplignn L1 Thu Oct  1 21:05:25 CST 2026 ===
+epoch   1 loss 19.4134 val MRR@20 0.1346 HR@20 0.1753 (133s)
+epoch   2 loss 11.4876 val MRR@20 0.1811 HR@20 0.2433 (269s)
+epoch   3 loss 8.6776 val MRR@20 0.2328 HR@20 0.3243 (408s)
+epoch   4 loss 7.5636 val MRR@20 0.2848 HR@20 0.4009 (553s)
+epoch   5 loss 6.9111 val MRR@20 0.3296 HR@20 0.4472 (699s)
+epoch   6 loss 6.5037 val MRR@20 0.3570 HR@20 0.4737 (852s)
+epoch   7 loss 6.1677 val MRR@20 0.3757 HR@20 0.4904 (999s)
+epoch   8 loss 5.9086 val MRR@20 0.3940 HR@20 0.5067 (1152s)
+epoch   9 loss 5.7721 val MRR@20 0.4027 HR@20 0.5157 (1300s)
+epoch  10 loss 5.5878 val MRR@20 0.4096 HR@20 0.5220 (1449s)
+epoch  11 loss 5.4557 val MRR@20 0.4155 HR@20 0.5290 (1605s)
+epoch  12 loss 5.3365 val MRR@20 0.4229 HR@20 0.5364 (1765s)
+TEST {
+  "HR@10": 0.385964500510003,
+  "MRR@10": 0.31507170377236215,
+  "NDCG@10": 0.3322982919744582,
+  "Coverage@10": 0.028922565443916175,
+  "HR@20": 0.40701305422901124,
+  "MRR@20": 0.31652033961553666,
+  "NDCG@20": 0.3376048118502999,
+  "Coverage@20": 0.05088902535827106
+}
+wrote results/real/mplignn_L1_yoochoose_quarter.json + results/real/mplignn_L1_yoochoose_quarter.pt (best epoch 12)
+exit=0

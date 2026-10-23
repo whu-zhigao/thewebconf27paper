@@ -1,0 +1,18 @@
+=== mplignn Thu Oct  1 20:53:19 CST 2026 ===
+epoch   1 loss 25.1090 val MRR@20 0.2270 HR@20 0.2609 (132s)
+epoch   2 loss 16.9516 val MRR@20 0.1503 HR@20 0.1831 (270s)
+epoch   3 loss 10.2368 val MRR@20 0.1815 HR@20 0.2231 (412s)
+epoch   4 loss 8.9045 val MRR@20 0.2073 HR@20 0.2565 (557s)
+epoch   5 loss 8.5449 val MRR@20 0.2160 HR@20 0.2700 (702s)
+TEST {
+  "HR@10": 0.2143771131176594,
+  "MRR@10": 0.18744999541432944,
+  "NDCG@10": 0.19408888426895524,
+  "Coverage@10": 0.04518845411532445,
+  "HR@20": 0.22038176187798997,
+  "MRR@20": 0.18786757964442138,
+  "NDCG@20": 0.19560806362544747,
+  "Coverage@20": 0.08511688794230722
+}
+wrote results/real/mplignn_yoochoose_quarter.json + results/real/mplignn_yoochoose_quarter.pt (best epoch 1)
+exit=0
