@@ -1,0 +1,45 @@
+[10-02 23:05:21] DISCRIMINATING TEST start
+[10-02 23:05:28] DISCRIMINATING TEST start
+[10-02 23:05:29] corpus: 3000/300/600 -> filtered 3000/300/600, length 28
+[10-02 23:05:29] lambda=0.6156 (expect << real benchmarks)
+[10-02 23:06:30] dis_chain_L1.json: rc=0 ok=True
+[10-02 23:06:47] margin=0.1905 tau_width=0.5730 raw L*=-0.15 -> PREDICTED L*=1
+[10-02 23:07:45] dis_chain_full_L1.json: rc=0 ok=True
+[10-02 23:08:37] dis_chain_full_L2.json: rc=0 ok=True
+[10-02 23:09:28] dis_chain_full_L3.json: rc=0 ok=True
+[10-02 23:09:28] empirical: {1: {'HR@20': 3.01, 'MRR@20': 0.44}, 2: {'HR@20': 1.55, 'MRR@20': 0.33}, 3: {'HR@20': 2.4, 'MRR@20': 0.59}} -> best depth 1
+[10-02 23:09:28] VERDICT: CONFIRMED (predicted 1, empirical 1)
+[10-02 23:12:02] DISCRIMINATING TEST start
+[10-02 23:12:02] corpus: 3000/300/600 -> filtered 3000/300/600, length 28
+[10-02 23:12:02] lambda=0.0014 (expect << real benchmarks)
+[10-02 23:12:47] dis_chain_L1.json: rc=0 ok=True
+[10-02 23:13:10] margin=0.1908 tau_width=0.5749 raw L*=-802.45 -> PREDICTED L*=1
+[10-02 23:15:02] dis_chain_full_L1.json: rc=0 ok=True
+[10-02 23:16:40] dis_chain_full_L2.json: rc=0 ok=True
+[10-02 23:17:25] dis_chain_full_L3.json: rc=0 ok=True
+[10-02 23:17:25] empirical: {1: {'HR@20': 3.93, 'MRR@20': 0.98}, 2: {'HR@20': 3.22, 'MRR@20': 0.75}, 3: {'HR@20': 2.33, 'MRR@20': 0.46}} -> best depth 1
+[10-02 23:17:25] VERDICT: CONFIRMED (predicted 1, empirical 1)
+[10-02 23:19:12] DISCRIMINATING TEST start
+[10-02 23:19:12] corpus: 10000/300/600 -> filtered 10000/300/600, length 28
+[10-02 23:19:12] lambda=0.0012 (expect << real benchmarks)
+[10-02 23:19:14] dis_chain_L1.json: rc=1 ok=False
+[10-02 23:20:20] DISCRIMINATING TEST start
+[10-02 23:20:20] corpus: 10000/300/600 -> filtered 10000/300/600, length 28
+[10-02 23:20:20] lambda=0.0012 (expect << real benchmarks)
+[10-02 23:32:16] dis_chain_L1.json: rc=0 ok=True
+[10-02 23:32:33] margin=0.1822 tau_width=0.5703 raw L*=-919.30 -> PREDICTED L*=1
+[10-02 23:38:24] dis_chain_full_L1.json: rc=0 ok=True
+[10-02 23:46:54] dis_chain_full_L2.json: rc=0 ok=True
+[10-02 23:57:50] dis_chain_full_L3.json: rc=0 ok=True
+[10-02 23:57:50] empirical: {1: {'HR@20': 2.64, 'MRR@20': 0.8}, 2: {'HR@20': 1.78, 'MRR@20': 0.43}, 3: {'HR@20': 3.64, 'MRR@20': 0.58}} -> best depth 3
+[10-02 23:57:50] VERDICT: REFUTED (predicted 1, empirical 3)
+[10-08 11:41:35] DISCRIMINATING TEST start
+[10-08 11:41:36] corpus: 10000/300/600 -> filtered 10000/300/600, length 28
+[10-08 11:41:36] lambda=0.0012 (expect << real benchmarks)
+[10-08 11:41:36] skip dis_chain_L1.json
+[10-08 11:41:56] margin=0.1822 tau_width=0.5703 raw L*=-919.30 -> PREDICTED L*=1
+[10-08 11:41:56] skip dis_chain_full_L1.json
+[10-08 11:41:56] skip dis_chain_full_L2.json
+[10-08 11:41:56] skip dis_chain_full_L3.json
+[10-08 11:41:56] empirical: {1: {'HR@20': 2.64, 'MRR@20': 0.8}, 2: {'HR@20': 1.78, 'MRR@20': 0.43}, 3: {'HR@20': 3.64, 'MRR@20': 0.58}} -> best depth 3
+[10-08 11:41:56] VERDICT: REFUTED (predicted 1, empirical 3)
